@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=ahsrah
+Comment=ahsrah 🕷️  An intelligent bot auto shell injector. 
+Encoding=UTF-8
+Exec=sh -c "ahsrah;${SHELL:-bash}"
+Icon=ahsrahicon.png
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=02-Vulnerability-Analysis;
+X-Kali-Package=ahsrah
+Name[C]=ahsrah
