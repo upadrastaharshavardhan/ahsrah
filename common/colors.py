@@ -10,7 +10,7 @@ if sys.platform.lower().startswith(('os', 'win', 'darwin', 'ios')):
     bannerblue = bannerblue2 = yellowhead = \
         W = Y = R = G = B = bg = green = \
         run = good = bad = info = red = end = que = \
-        failexploit = vulnexploit = portopen = portclose = ''
+        failexploit = ahsrahploit = portopen = portclose = ''
 else:
     # banner Colors
     bannerblue = '\033[1;0;34m'
@@ -34,6 +34,6 @@ else:
     que = '\033[1;94m[?]\033[1;97m'
     # test colors
     failexploit = '\033[91mFAIL\033[1m'
-    vulnexploit = '\033[92mVULN\033[1m'
+    ahsrahxploit = '\033[92mVULN\033[1m'
     portopen = '\033[92mOPEN \033[1m'
     portclose = '\033[91mCLOSE\033[1m'
