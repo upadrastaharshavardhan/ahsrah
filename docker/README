@@ -1,0 +1,7 @@
+### Docker Documentation.
+Welcome to the ahsrah DOCKER documentation.
+The ahsrah DOCKER documentation is generated as a rule of usage docker.
+
+You can build docker-image & run container for no problem of comptability:
+	$ docker build -t ahsrah ./docker/
+    $ docker run -it --name ahsrah ahsrah:latest -u http://example.com
